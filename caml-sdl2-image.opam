@@ -12,7 +12,7 @@ doc: "https://github.com/ssbx/caml-sdl2-image"
 bug-reports: "https://github.com/ssbx/caml-sdl2-image/issues"
 depends: [
   "ocaml"
-  "dune" {>= "3.15"}
+  "dune" {>= "3.24"}
   "caml-sdl2"
   "odoc" {with-doc}
 ]
@@ -31,3 +31,4 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/ssbx/caml-sdl2-image.git"
+x-maintenance-intent: ["(latest)"]
